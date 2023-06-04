@@ -1,0 +1,111 @@
+body {
+    background-color: white;
+    font-family: 'Asap', sans-serif;
+}
+
+/* .OR-logo {
+    margin-left: 400px;
+} */
+
+hr {
+    margin-top: 20px;
+}
+
+h1 {
+    font-weight: 700;
+    color: #7db928;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.main-body {
+    padding: 0 12.2%;
+}
+
+.navbar {
+    padding: 0 3% 0 6%;
+    height: 110px;
+}
+
+.OR-logo {
+    height: 70px;
+}
+
+.intro-text {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.config-body {
+    padding: 2% 6%;
+    background-color:aliceblue;
+}
+
+.center-column {
+    text-align: center;
+    border: solid #7db928 1px;
+    padding: 10px 0;
+    align-self: center;
+    margin-top: 25px;
+    background-color: white;
+}
+
+.checkbox-inline {
+    margin-right: 20px;
+}
+
+input {
+    margin-right: 5px;
+}
+
+.create-rcoi {
+    text-align: center;
+}
+
+.btn {
+    height: 60px;
+    width: 200px;
+    font-weight: 700;
+    color: #7db928;
+    border: solid #7db928 1px;
+}
+
+/* 
+.btn-type-service {
+    width: 49%;
+    height: 150px;
+}
+
+.btn-text {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.btn-primary {
+    background-color: #203864;
+    border: #203864;
+} */
+
+
+@media (max-width: 550px) {
+
+    .main-body {
+        padding: 0;
+    }
+
+    .wba-logo {
+        width: 80%;
+    }
+
+
+}
