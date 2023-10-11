@@ -403,28 +403,28 @@ function calc_rcois() {
                 rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "300" + "<br>";
             }
             if (id5.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "500" + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "400" + "<br>";
             }
             if (id6.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "600" + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "500" + "<br>";
             }
             if (id7.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "700" + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "600" + "<br>";
             }
             if (id8.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "800" + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "700" + "<br>";
             }
             if (id9.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "900" + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "800" + "<br>";
             }
             if (id10.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "A00" + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "900" + "<br>";
             }
             if (id11.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "B00" + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "A00" + "<br>";
             }
             if (id12.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "C00" + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "B00" + "<br>";
             }
 
         }
@@ -458,28 +458,28 @@ function calc_rcois() {
                 rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "300" + "<br>";
             }
             if (id25.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "500" + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "400" + "<br>";
             }
             if (id26.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "600" + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "500" + "<br>";
             }
             if (id27.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "700" + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "600" + "<br>";
             }
             if (id28.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "800" + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "700" + "<br>";
             }
             if (id29.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "900" + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "800" + "<br>";
             }
             if (id30.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "A00" + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "900" + "<br>";
             }
             if (id31.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "B00" + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "A00" + "<br>";
             }
             if (id32.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "C00" + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "B00" + "<br>";
             }
         }
     }
