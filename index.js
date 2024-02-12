@@ -610,7 +610,9 @@ function calc_rcois() {
     if (caseType.checked == true) {
         rcoi_array = rcoi_array.toLowerCase();
     }
-
-
+    
+    let copied_array = rcoi_array.replaceAll("<br>",", ");
+    copied_array = copied_array.substring(0, copied_array.length - 2);
+    navigator.clipboard.writeText(copied_array);
     document.getElementById("results").innerHTML = rcoi_array;
 }
