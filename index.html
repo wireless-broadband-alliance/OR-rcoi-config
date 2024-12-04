@@ -45,14 +45,14 @@
 
         <!-- Configurator starts here -->
 
-        <div class="config-body">
-            <h4>WBA OpenRoaming™ Roaming Consortium Organization Identifiers (RCOI)</h4>
-            <h1>Configurator</h1>
+        <div class="config-body" style="margin-left:10%;margin-right:10%;">
+            <h3>WBA OpenRoaming™ Roaming Consortium Organization Identifiers (RCOI) Configurator</h3>
+            <br>
 
             <!-- Bootstrap Columns instead, let's go -->
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 center-column">
+                    <div class="col-lg-9 center-column">
                         <label class="checkbox-inline">
                             <input type="checkbox" id="free" name="orfree" value="Free Service" checked="1" class="main-checkbox"
                                 onclick="orfree()">Free Service
@@ -66,9 +66,9 @@
             <div class="container">
                     <div class="row">
                     <!--Identity Types Free Service-->
-                    <div class="col-lg-6 main-column">
-                        <h3>Identity Types</h3>
-                        <table class="free_id_types">
+                    <div class="col-lg-9 main-column">
+                        <h3 style="text-align:center">Identity Types</h3>
+                        <table class="free_id_types" style="margin-left:auto;margin-right:auto;">
                             <tbody>
                                 <tr>
                                     <td>
@@ -89,14 +89,15 @@
                                             Identity
                                         </label>
                                     </td>
-
-                                </tr>
-                                <tr>
                                     <td>
                                         <label class="checkbox-inline">
                                             <input type="checkbox" id="free_ent" onclick="free_id()">Enterprise Identity
                                         </label>
                                     </td>
+
+                                </tr>
+                                <tr>
+                                    
                                     <td>
                                         <label class="checkbox-inline">
                                             <input type="checkbox" id="free_gov" onclick="free_id()">Government Identity
@@ -108,9 +109,6 @@
                                             Identity
                                         </label>
                                     </td>
-
-                                </tr>
-                                <tr>
                                     <td>
                                         <label class="checkbox-inline">
                                             <input type="checkbox" id="free_hosp" onclick="free_id()">Hospitality
@@ -122,14 +120,15 @@
                                             <input type="checkbox" id="free_air" onclick="free_id()">Aviation Identity
                                         </label>
                                     </td>
+
+                                </tr>
+                                <tr>
+                                    
                                     <td>
                                         <label class="checkbox-inline">
                                             <input type="checkbox" id="free_edu" onclick="free_id()">Education Identity
                                         </label>
                                     </td>
-
-                                </tr>
-                                <tr>
                                     <td>
                                         <label class="checkbox-inline">
                                             <input type="checkbox" id="free_cable" onclick="free_id()">Cable Identity
@@ -151,11 +150,13 @@
                             </tbody>
                         </table>
                     </div>
+                </div>
+                <div class="row">
 
                     <!--Service Tiers Free Service-->
                     <div class="col-lg-3 main-column">
-                        <h3>Service Tiers</h3>
-                        <table class="free_qos_types">
+                        <h3 style="text-align:center">Service Tiers</h3>
+                        <table class="free_qos_types" style="margin-left:auto;margin-right:auto;">
                             <tbody>
                                 <tr>
                                     <td>
@@ -176,8 +177,8 @@
 
                     <!--Privacy Free Service-->
                     <div class="col-lg-3 main-column">
-                        <h3>Privacy</h3>
-                        <table class="free_privacy_types">
+                        <h3 style="text-align:center">Privacy</h3>
+                        <table class="free_privacy_types" style="margin-left:auto;margin-right:auto;">
                             <tbody>
                                 <tr>
                                     <td>
@@ -197,10 +198,36 @@
                             </tbody>
                         </table>
                     </div>
+
+                    <!--Long/Short Lived Free Service-->
+                    <div class="col-lg-3 main-column">
+                        <h3 style="text-align:center">Credential life-time</h3>
+                        <table class="free_longshort_type" style="margin-left:auto;margin-right:auto;">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <label class="checkbox-inline">
+                                            <input type="checkbox" id="freeLong" checked="1"
+                                                onclick="uncheck_free_short()">Long-Lived
+                                        </label>
+                                    </td>
+
+                                    <td>
+                                        <label class="checkbox-inline">
+                                            <input type="checkbox" id="freeShort"
+                                                onclick="uncheck_free_long()">Short-Lived
+                                        </label>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-12 center-column">
+                    <div class="col-lg-9 center-column">
                         <label class="checkbox-inline">
                             <input type="checkbox" id="paid" name="orpaid" value="Paid Service" onclick="paid()">Paid
                             Service
@@ -210,9 +237,9 @@
 
                 <div class="row">
                     <!--Identity Types Paid Service-->
-                    <div class="col-lg-6 main-column">
-                        <h3>Identity Types</h3>
-                        <table class="free_id_types">
+                    <div class="col-lg-9 main-column">
+                        <h3 style="text-align:center">Identity Types</h3>
+                        <table class="free_id_types" style="margin-left:auto;margin-right:auto;">
                             <tbody>
                                 <tr>
                                     <td>
@@ -233,9 +260,6 @@
                                             Provider Identity
                                         </label>
                                     </td>
-
-                                </tr>
-                                <tr>
                                     <td>
                                         <label class="checkbox-inline">
                                             <input type="checkbox" id="paid_ent" disabled="1"
@@ -243,6 +267,10 @@
                                             Identity
                                         </label>
                                     </td>
+
+                                </tr>
+                                <tr>
+
                                     <td>
                                         <label class="checkbox-inline">
                                             <input type="checkbox" id="paid_gov" disabled="1"
@@ -256,9 +284,6 @@
                                                 onclick="paid_id()">Automotive Identity
                                         </label>
                                     </td>
-
-                                </tr>
-                                <tr>
                                     <td>
                                         <label class="checkbox-inline">
                                             <input type="checkbox" id="paid_hosp" disabled="1"
@@ -272,6 +297,10 @@
                                             Identity
                                         </label>
                                     </td>
+
+                                </tr>
+                                <tr>
+                                    
                                     <td>
                                         <label class="checkbox-inline">
                                             <input type="checkbox" id="paid_edu" disabled="1"
@@ -280,8 +309,6 @@
                                         </label>
                                     </td>
 
-                                </tr>
-                                <tr>
                                     <td>
                                         <label class="checkbox-inline">
                                             <input type="checkbox" id="paid_cable" disabled="1"
@@ -306,10 +333,12 @@
                             </tbody>
                         </table>
                     </div>
+                </div>
+                <div class="row">
                     <!--Service Tiers Paid Service-->
                     <div class="col-lg-3 main-column">
-                        <h3>Service Tiers</h3>
-                        <table class="free_qos_types">
+                        <h3 style="text-align:center">Service Tiers</h3>
+                        <table class="free_qos_types" style="margin-left:auto;margin-right:auto;">
                             <tbody>
                                 <tr>
                                     <td>
@@ -330,8 +359,8 @@
                     </div>
                     <!--Privacy Paid Service-->
                     <div class="col-lg-3 main-column">
-                        <h3>Privacy</h3>
-                        <table class="free_privacy_types">
+                        <h3 style="text-align:center">Privacy</h3>
+                        <table class="free_privacy_types" style="margin-left:auto;margin-right:auto;">
                             <tbody>
                                 <tr>
                                     <td>
@@ -350,14 +379,38 @@
                             </tbody>
                         </table>
                     </div>
+
+                    <!--Long/Short Lived Paid Service-->
+                    <div class="col-lg-3 main-column">
+                        <h3 style="text-align:center">Credential life-time</h3>
+                        <table class="paid_longshort_type" style="margin-left:auto;margin-right:auto;">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <label class="checkbox-inline">
+                                            <input type="checkbox" id="paidLong" checked="1" disabled="1"
+                                                onclick="uncheck_paid_short()">Long-Lived
+                                        </label>
+                                    </td>
+
+                                    <td>
+                                        <label class="checkbox-inline">
+                                            <input type="checkbox" id="paidShort" disabled="1"
+                                                onclick="uncheck_paid_long()">Short-Lived
+                                        </label>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
 
 
                 <!---common options-->
-                <hr>
+                <hr class="col-lg-9 main-column">
                 <div class="row">
-                    <div class="col-lg-6 main-column">
-                        <h3>Regulatory regime where the ANP operates</h3>
+                    <div class="col-lg-5 main-column">
+                        <h3 style="text-align:center">Regulatory regime where the ANP operates</h3>
                         <table>
                             <tbody>
                                 <tr>
@@ -381,8 +434,8 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="col-lg-6 main-column">
-                        <h3>Upper or lower case RCOI</h3>
+                    <div class="col-lg-5 main-column">
+                        <h3 style="text-align:center">Upper or lower case RCOI</h3>
                         <table>
                             <tbody>
                                 <tr>
@@ -409,24 +462,26 @@
             </div>
             <!--BIG SPLIT-->
             <!---button-->
-            <hr>
-            <div class="create-rcoi">
-                <button class="btn btn-outline-primary" type="button" id="rcoi" onclick="calc_rcois()">Configure Codes & Copy to Clipboard</button>
-            </div>
-            <div id="results" style="font-size:20px;text-align: center;">
-
-            </div>
+            <hr class="col-lg-9 main-column">
+            <div class="col-lg-9">
+                <div class="create-rcoi">
+                    <button class="btn btn-outline-primary" type="button" id="rcoi" onclick="calc_rcois()">Configure Codes & Copy to Clipboard</button>
+                </div>
+                <div id="results" style="font-size:20px;text-align: center;"></div>
+            </div>            
             
-
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
             <script src="index.js"></script>
         
         </div>
+        <br>
+        <br>
         <h5>Revision History</h5>
         <ul>
             <li>2023.05.29: Initial Version</li>
             <li>2023.10.11: Bug Fix to ID-Types which skipped value 0100 used for Government issued IDs</li>
             <li>2024.02.12: New functionality - on button press, copy RCOIs direct to clipboard</li>
+            <li>2024.12.04: New functionality - supporting long-lived/short-lived credential types</li>
         </ul>
         </body>
 </html>
