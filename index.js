@@ -445,40 +445,40 @@ function calc_rcois() {
             let id12 = document.getElementById('free_shop');
 
             if (id1.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "0" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "0" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id2.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "1" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "1" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id3.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "2" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "2" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id4.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "3" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "3" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id5.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "4" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "4" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id6.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "5" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "5" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id7.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "6" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "6" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id8.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "7" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "7" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id9.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "8" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "8" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id10.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "9" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "9" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id11.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "A" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "A" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id12.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "B" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "B" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
 
         }
@@ -500,40 +500,40 @@ function calc_rcois() {
             let id32 = document.getElementById('free_shop');
 
             if (id21.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "0" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "0" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id22.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "1" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "1" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id23.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "2" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "2" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id24.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "3" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "3" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id25.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "4" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "4" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id26.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "5" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "5" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id27.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "6" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "6" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id28.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "7" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "7" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id29.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "8" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "8" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id30.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "9" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "9" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id31.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "A" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "A" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id32.checked == true) {
-                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "B" + nibbleF3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleF1.toString(16).toUpperCase() + "B" + nibbleF3.toString(16).toUpperCase() + "0" + "<br>";
             }
         }
     }
@@ -566,40 +566,40 @@ function calc_rcois() {
             let id52 = document.getElementById('paid_shop');
 
             if (id41.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "0" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "0" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id42.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "1" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "1" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id43.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "2" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "2" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id44.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "3" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "3" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id45.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "4" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "4" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id46.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "5" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "5" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id47.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "6" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "6" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id48.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "7" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "7" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id49.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "8" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "8" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id50.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "9" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "9" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id51.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "A" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "A" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id52.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "B" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "B" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
 
         }
@@ -622,40 +622,40 @@ function calc_rcois() {
             let id72 = document.getElementById('paid_shop');
 
             if (id61.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "0" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "0" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id62.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "1" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "1" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id63.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "2" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "2" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id64.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "3" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "3" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id65.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "4" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "4" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id66.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "5" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "5" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id67.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "6" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "6" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id68.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "7" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "7" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id69.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "8" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "8" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id70.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "9" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "9" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id71.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "A" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "A" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
             if (id72.checked == true) {
-                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "B" + nibbleP3.toString(16).toUpperCase() + "<br>";
+                rcoi_array += baseRcoi + nibbleP1.toString(16).toUpperCase() + "B" + nibbleP3.toString(16).toUpperCase() + "0" + "<br>";
             }
         }
     }
